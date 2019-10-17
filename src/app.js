@@ -16,6 +16,6 @@ class App {
   routes() {
     this.server.use(routes);
   }
-};
+}
 
 export default new App().server;
